@@ -1,0 +1,118 @@
+nav{
+    background-color: #404eed;
+}
+.section{
+    background-image: url("1.svg");
+}
+.btn{
+    padding-right: 21px;
+    padding-left: 21px;
+    border-radius: 31px;
+    background: white;
+    padding-top: 10px;
+    color: black;
+    width: 268px;
+    padding-bottom: 13px;
+    margin-top: 20px;
+}
+.btn1{
+    padding-right: 21px;
+    padding-left: 21px;
+    border-radius: 31px;
+    background: black;
+    padding-top: 10px;
+    color: white;
+    width: 268px;
+    padding-bottom: 13px;
+    margin-top: 20px;
+}
+*{
+    box-sizing: border-box;
+}
+@media screen and (max-width:450px) {
+    body{
+     width: fit-content;
+    }
+}
+
+html{
+    overflow-x: hidden;
+    width: 100%;
+}
+body{
+    overflow-x: hidden;
+}
+.heading{
+    font-family: "ABC Ginto Nord","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 800;
+}
+.Heading{
+    font-family: "ABC Ginto Nord","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 800;
+}
+.onclick_Nav{
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    right: 0;
+    margin-top: -32px;
+    top: 57px;
+    /* margin: 0; */
+    /* padding: 37px; */
+    background: white;
+    color: black;
+    margin: 0;
+    margin-top: -57px;
+    /* border-radius: 10px; */
+    border-right: none;
+    border-radius: 10px 0 0 12px;
+    padding: 15px 31px 62px 24px;
+    opacity: 1;
+    z-index: 9999;
+    width: 330px;
+    opacity: 1;
+}
+.active{
+    display: flex;
+}
+.onclick_nav_header{
+    display: flex;
+    align-items: center;
+    /* gap: 111px; */
+    padding-bottom: 22px;
+    border-bottom: 1px solid;
+    color: gray;
+    justify-content: space-between;
+    width: 100%;
+}
+.onclick_nav_header>img{
+    height: 37px;
+}
+.onclick_nav_header>i{
+    margin: 0;
+    padding: 0;
+    margin-right: -30px;
+    display: flex;
+}
+.onclick_Nav li{
+    margin-top: 18px;
+    margin-bottom: 7px;
+    /* border: 1px solid; */
+    border-radius: 6px;
+    margin-right: 17px;
+    padding-left: 8px;
+    /* padding: 5px; */
+    border-radius: 7px;
+    outline: none;
+    /* background: aliceblue; */
+    padding: 7px 15px;
+    font-weight: 100;
+}
+/* @media screen and (max-width:1024px) {
+    body{
+        min-width:fit-content;
+    }
+} */
+
+
+
